@@ -1,5 +1,4 @@
 "type","label","color","description","long_description"
-"status","in-progress","#9BCC65","Contributor working on issue","A Contributor is actively working on addressing the issue, this label should be used once someone has been assigned the issue. Because, we can only assign people using GitHub's interface when they are part of the organization, the assignment is done by tagging them in a comment of the issue. The Maintainer should set an initial deadline for a PR to be submitted. We suggest 7 days, but it can be adapted to the discretion of the Maintainer depending on the complexity of the task."
 "status","need-more-info","#EE6C00","More information needed","Issue doesn't include enough information to proceed"
 "status","blocked","#E55100","Progress on addressing issue blocked","Issue can't be fixed because a technical problem is hindering progress. A Maintainer or someone else in the community should be notified to ensure that progress is being made."
 "status","out-of-scope","#FFCC7F","Issue or PR out of scope","Issue that doesn't fall within the scope of the lesson"
