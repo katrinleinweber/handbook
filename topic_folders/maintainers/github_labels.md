@@ -8,6 +8,9 @@
 
 
 This is a draft. The labels, and their definitions might change.
+Generally, we reuse [GitHub's default
+labels](https://help.github.com/articles/about-labels/), and only
+add the following few label for Carpentry-specific tasks.
 
 <ul><li><span style="font-family: monospace; font-weight: bold; font-size: 1.2em; color: #ffffff; background-color: #455964; border-radius: 4px; padding: 4px;">bug-bbq</span>
   <ul>
