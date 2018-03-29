@@ -1,5 +1,4 @@
 "type","label","color","description","long_description"
-"status","need-contributor","#DCECC7","Looking for Contributors","Issue reviewed by Maintainers, and ready to be addressed. Maintainers are looking for contributors to address this issue."
 "status","in-progress","#9BCC65","Contributor working on issue","A Contributor is actively working on addressing the issue, this label should be used once someone has been assigned the issue. Because, we can only assign people using GitHub's interface when they are part of the organization, the assignment is done by tagging them in a comment of the issue. The Maintainer should set an initial deadline for a PR to be submitted. We suggest 7 days, but it can be adapted to the discretion of the Maintainer depending on the complexity of the task."
 "status","pr-in-review","#679F38","PR being reviewed by Maintainers","A PR has been submitted to address this issue, and is under review by the Maintainers"
 "status","completed","#33681E","Issue successfully resolved","A PR has been merged, the issue is fully addressed. "
