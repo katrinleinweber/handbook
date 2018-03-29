@@ -7,6 +7,5 @@
 "type","documentation","#4CB6AC","Issue about auxiliary files","Issue about something being outdated or inaccurate in the documentation of the process to building, or maintaining the lesson."
 "type","instructor-guide","#00887A","Issue with the instructor guide","Issue related to the content of the instructor guide"
 "type","feedback","#029AE5","Issue to provide feedback on lesson","General feedback on the lesson content"
-"priority","high-priority","#D22E2E","Need to be addressed ASAP","Issue that needs to be fixed as soon as possible because the lesson uses code that doesn’t work anymore"
 "other","bug-bbq","#455964","Good for Bug BBQ","Good target for or related to Bug BBQ event"
 "type","teaching-example","#CED8DC","PR showing how lesson was modified in a particular workshop","PR that illustrates how someone modified the lesson in their workshop. Not intended to be merged, but as a way to document how other instructors have used the lesson."
