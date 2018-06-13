@@ -106,7 +106,7 @@ html_theme = "sphinx_rtd_theme"
 #
 html_theme_options = {
     #'typekit_id': '',
-    'canonical_url': '',
+    # 'canonical_url': '',
     'analytics_id': '',
     'logo_only': False,
     'display_version': True,
@@ -115,7 +115,7 @@ html_theme_options = {
     # Toc options
     'collapse_navigation': False,
     'sticky_navigation': True,
-    'navigation_depth': 4,
+    # 'navigation_depth': 4,
     # 'includehidden': True,
     # 'titles_only': False
 }
