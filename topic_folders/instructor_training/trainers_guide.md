@@ -1,77 +1,52 @@
 ### Trainers Guide
 
-#### Trainer Duties
-As of May 2017, the Trainers group adopted a [Trainer Agreement][trainer-agreement] outlining Trainer duties. Only active Trainers are voting members of the Trainer community. An inactive Trainer may re-activate their Trainer status at any time by resuming Trainer activities.
-
-##### Trainer Agreement
-I agree to follow the [Code of Conduct](http://docs.carpentries.org/topic_folders/policies/code-of-conduct.html) in all communications and interactions with the Carpentry community and to [promptly report any violations of the CoC](http://docs.carpentries.org/topic_folders/policies/code-of-conduct.html#reporting-guidelines) that I become aware of.
-
-I understand that the secondary learning outcomes of workshops are as important as their stated goals. I will:  
-- Communicate Carpentry community values to trainees and model that behaviour myself in how I teach  
-- Provide a welcoming and supporting environment for trainees  
-- Model our “show, don’t tell” policy in instructor training  
-- Connect the principles used in Carpentry workshops with other teaching contexts  
-
-I understand that it is important to keep up to date and in touch with the Trainer community so that my teaching will reflect current practices and curriculum. Therefore, to be an active Trainer, I agree to:
-- Teach at least two instructor training events per year  
-- Host on average four teaching demonstration per year  (1 per quarter)  
-- Regularly attend Trainer Discussion and Business meetings when possible and read meeting minutes/notes when I am not able to attend  
-- Read emails sent to the Trainer listserv  
-- Keep up-to-date with the instructor training curriculum  
-- Teach a curriculum that fulfills all of the current requirements for instructor certification  
-- Provide feedback to other trainers and Carpentries staff about training events to help continue developing our offerings  
-
-I understand that Carpentry staff need an accurate understanding of Trainer availability in order to plan instructor training events. If at any point I am no longer able to serve as a Trainer, I will let Carpentry staff know. I understand that only active Trainers are voting members of the Trainer community, but that I will be able to re-activate my Trainer status at any time by resuming
-Trainer activities.  
-
-#### Becoming a Trainer
-The Trainers group periodically accepts new members via application. New Trainers undergo an eight-week training program outlined [in this document][trainer-process] and agree to the [Trainer Agreement][trainer-agreement].
-
 #### Trainer Meetings
 The Trainers group meets regularly. We have two types of meetings - business meetings, focused on discussing curricular and policy changes, and discussion meetings, where we share experiences and get advice about running instructor training events. Upcoming meetings are listed on [our Etherpad][trainer-pad] and on the [Community Calendar][community-calendar]. If you are not a Trainer, but are interested in joining a meeting, please contact Erin Becker (ebecker@carpentries.org). Minutes for these meetings [are available][trainer-minutes].
 
 #### Signing up to Teach an Instructor Training Event
 
-1. The Program Manager will send an email to the Trainers list asking all Trainers to fill in their calendar for the [upcoming time period](scheduling_training_events.html). Please sign up for as many days as you are available and hold those dates in your calendar until the schedule is confirmed.
-2. The Program Manager will confirm events with individual Trainers, at which point you are free to release all other dates on your calendar.
-3. Member sites will sign up for available dates. The Program Manager will let you know which sites you will be teaching as they sign up.
-4. If no member site signs up one month before the event, the event will become an open instructor training or be cancelled, depending on need.
+1. The Program Manager will send an email to the Trainers list asking all Trainers to fill in their calendar for the [upcoming time period](scheduling_training_events.html). Trainers should sign up for as many days as they are available and hold those dates in their calendar until the schedule is confirmed.
+1. The Program Manager will confirm events with individual Trainers, at which point they are free to release all other dates on their calendar.
+1. Member sites will sign up for available dates. The Program Manager will let Trainers know which sites they will be teaching as they sign up.
+1. If no member site signs up one month before the event, the event will become an open instructor training or be cancelled, depending on need. The Program Manager will notify instructors of this decision.
 
 A calendar for upcoming instructor training events is [here](http://carpentries.github.io/instructor-training/training_calendar/).
 
-#### Running an Instructor Training Event (General)
+#### Trainer Checklists
 
-##### Four weeks before the event
+##### Running an Instructor Training Event (General)
+
+###### Four weeks before the event
 -  Contact your co-Trainer(s) and decide who will teach what.  
 -  Create an event Etherpad (using the [Etherpad template][etherpad-template]) or Google Doc and a workshop website (using the [training template][training-template]).  
 -  Send Etherpad/Google Doc and website links to training@carpentries.org.  
 
-##### Two weeks before the event
+###### Two weeks before the event
 -  Introduce yourself to your trainees.  
 
-##### One week before the event (if teaching remotely)   
+###### One week before the event (if teaching remotely)   
 -  Test videoconferencing set up with co-Trainer(s) using login credentials provided.   
 -  Plan logistics with co-Trainer(s).  
 -  Decide with co-Trainer(s) whether all Trainers should be present for the full event or if you will log on during your scheduled teaching times only.  
 -  Make a copy of the [Virtual Minute Cards template][minute-cards-template] and personalize for your event.  
 
-##### During the event
+###### During the event
 -  Take attendance.  
 -  Remind trainees to fill out application (member events only).   
 -  Remind trainees to sign up for demo, discussion (links in [checkout checklist][checkout-checklist]).  
 -  Monitor the Etherpad / Google Doc for questions and responses to exercises.  
 -  If teaching remotely: Turn off video during long exercises and coffee breaks and disconnect during lunch.  
 
-##### Immediately after the event
+###### Immediately after the event
 -  Send a list of those who completed the training to checkout@carpentries.   
--  Send an email to trainees thanking them for participating and linking to [checkout checklist][checkout-checklist] using [this template](email_templates.html#email-after-training-event)  
+-  Send an email to trainees thanking them for participating and linking to [checkout checklist][checkout-checklist] using [this template](email_templates_trainers.html#email-after-training-event)  
 -  Review survey results and prepare to discuss at upcoming [Trainers discussion meeting][trainer-pad].  
 -  File any relevant issues or PRs to the [instructor training repo][training-repo].  
 
-##### Long-term after the event 
+###### Long-term after the event 
 -  Join a [Trainer discussion meeting][trainer-pad] to discuss how your event went.   
 
-#### Differences Among In-person and Online Training Events
+#### Differences Between In-person and Online Training Events
 
 ##### In-person trainings
 - When watching videos, project them to the whole group.   
@@ -134,45 +109,64 @@ If you would like to watch an example teaching demo, there is a recording of one
 -  At the end of the season, ask for general questions.  
 -  If all of your trainees passed, you can tell the group at the end of the demo session. If anyone did not pass, tell everyone you will send them each an email to let them know if they passed.  
 
+##### During the Demo (Troubleshooting)
+- If a trainee is using Linux and gets the error message "Can not start share, wayland has not been supported yet, 
+please use x11 instead", have them log out of Zoom and log back in. On the login screen there is a gear with a dropdown menu there choose the option with x11.
+- If a trainee is teaching a Python lesson and their Jupyter notebook doesn't start, direct them to http://jupyter.org/try.
+
 ##### After the Demo 
 -  Email checkout@carpentries.org with names, pass/fail, and SWC/DC for each of your trainees.  
 -  Clear Etherpad of data from your session.  
--  Send each trainee an email letting them know they [passed](email_templates.html#trainee-did-pass-teaching-demo) or [did not pass](email_templates.html#trainee-didnt-pass-teaching-demo) the teaching demo. If needed, let them know the reason they did not pass and asking them to retry.
+-  Send each trainee an email letting them know they [passed](email_templates_trainers.html#trainee-did-pass-teaching-demo) or [did not pass](email_templates_trainers.html#trainee-didnt-pass-teaching-demo) the teaching demo. If needed, let them know the reason they did not pass and asking them to retry.
 
 ##### Not Good Starting Points for Demos
 Any episode other than those listed below should make an okay starting point for a teaching demonstration. 
 
 *  SWC
-   *  [The Unix Shell 01-intro](https://swcarpentry.github.io/shell-novice/01-intro) - no live coding
-   *  [Version Control with Git 01-basics](https://swcarpentry.github.io/git-novice/01-basics/) - no live coding
-   *  Version Control with Git - anything after [Tracking Changes](https://swcarpentry.github.io/git-novice/04-changes) - dependencies
-   *  [Version Control with Mercurial](https://swcarpentry.github.io/hg-novice/01-basics/) - no live coding
-   *  Version Control with Mercurial - anything after [Configuring Mercurial](https://swcarpentry.github.io/hg-novice/02-configuration/) - dependencies
-   *  [Databases and SQL 08-hygiene](https://swcarpentry.github.io/sql-novice-survey/08-hygiene/) - no live coding
-   *  [Programming with Python 09-debugging](https://swcarpentry.github.io/python-novice-inflammation/09-debugging/) - no live coding
-   *  [R for Reproducible Scientific Analysis 16-wrap-up](https://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/) - no live coding
-   *  Automation and Make - anything after [Makefiles](https://swcarpentry.github.io/make-novice/02-makefiles/) - dependencies
+  * [The Unix Shell](http://swcarpentry.github.io/shell-novice/)
+    * [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro) - no live coding
+  * [Version Control with Git](http://swcarpentry.github.io/git-novice/)
+    * [Automated Version Control](https://swcarpentry.github.io/git-novice/01-basics/) - no live coding
+    *  anything after [Tracking Changes](https://swcarpentry.github.io/git-novice/04-changes) - dependencies
+  * [Version Control with Mercurial](http://swcarpentry.github.io/hg-novice/)
+    *  [Automated Version Control](https://swcarpentry.github.io/hg-novice/01-basics/) - no live coding
+    *  anything after [Tracking Changes to Files](http://swcarpentry.github.io/hg-novice/04-tracking/) - dependencies
+  * [Using Databases and SQL](http://swcarpentry.github.io/sql-novice-survey/)
+    *  [Data Hygiene](https://swcarpentry.github.io/sql-novice-survey/08-hygiene/) - no live coding
+  * [Programming with Python](http://swcarpentry.github.io/python-novice-inflammation/)
+     * [Debugging](https://swcarpentry.github.io/python-novice-inflammation/09-debugging/) - no live coding
+  * [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/)
+     * [Writing Good Software](https://swcarpentry.github.io/r-novice-gapminder/16-wrap-up/) - no live coding
+  *  [Automation and Make](http://swcarpentry.github.io/make-novice/) 
+      * anything after [Makefiles](https://swcarpentry.github.io/make-novice/02-makefiles/) - dependencies
 
-*  DC (stable lessons only)
-   * Open Refine for Ecology - anything after [Working with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/01-working-with-openrefine/) - dependencies
-   * [SQL for Ecology](http://www.datacarpentry.org/sql-ecology-lesson/00-sql-introduction/) - live coding doesn't start until middle of episode
-   * [R for Ecology](http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html) - no live coding  
-   * R for Ecology - anything after [Manipulating data frames](http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html) - dependencies
-   * Python for Ecology - anything after [Data workflows and automation](http://www.datacarpentry.org/python-ecology-lesson/05-loops-and-functions/) - dependencies
+*  DC (published lessons only)
+  * Ecology
+     * [Data Cleaning with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/)
+        * anything after [Working with OpenRefine](http://www.datacarpentry.org/OpenRefine-ecology-lesson/01-working-with-openrefine/) - dependencies
+    * [Data Management with SQL](http://www.datacarpentry.org/sql-ecology-lesson/)
+      * [Databases using SQL](http://www.datacarpentry.org/sql-ecology-lesson/00-sql-introduction/) - live coding doesn't start until middle of episode
+    * [Data Analysis and Visualization in R](http://www.datacarpentry.org/R-ecology-lesson/)
+        * [Before We Start](http://www.datacarpentry.org/R-ecology-lesson/00-before-we-start.html) - no live coding  
+        * anything after [Manipulating data frames](http://www.datacarpentry.org/R-ecology-lesson/03-dplyr.html) - dependencies
+    * [Data Analysis and Visualization in Python](http://www.datacarpentry.org/python-ecology-lesson/)
+        * anything after [Data workflows and automation](http://www.datacarpentry.org/python-ecology-lesson/05-loops-and-functions/) - dependencies
+   * Genomics 
+      * TBA
+   * Social Sciences
+     * [Data Cleaning with OpenRefine for Social Scientists](http://www.datacarpentry.org/openrefine-socialsci/)
+        * anything after [Working with OpenRefine](http://www.datacarpentry.org/openrefine-socialsci/02-working-with-openrefine/) - dependencies
+      * [Data Analysis and Visualization with R for Social Scientists](http://www.datacarpentry.org/r-socialsci/)
+        * [Before We Start](http://www.datacarpentry.org/r-socialsci/00-intro/) - no live coding  
+        * anything after [Introducing dplyr and tidyr](http://www.datacarpentry.org/r-socialsci/03-dplyr-tidyr/) - dependencies
 
-*  LC (stable lessons only)
-   * Anything in [Data Intro for Librarians](https://data-lessons.github.io/library-data-intro/) - no live coding
-   * [OpenRefine 01-introduction](https://data-lessons.github.io/library-openrefine/01-introduction/) - no live coding
-   * OpenRefine - anything after [Layout of OpenRefine, Rows vs Records](https://data-lessons.github.io/library-openrefine/03-working-with-data/) - dependencies
-
-
-[trainer-agreement]: http://docs.carpentries.org/topic_folders/instructor_training/trainers_guide.html#trainer-agreement
-[trainer-process]: http://docs.carpentries.org/topic_folders/instructor_training/trainers_training.html
+[trainer-agreement]: ../instructor_training/trainers_guide.html#trainer-agreement
+[trainer-process]: ../instructor_training/trainers_training.html
 [trainer-pad]: http://pad.software-carpentry.org/trainers
 [community-calendar]: https://software-carpentry.org/join/#community-events
 [trainer-minutes]: https://github.com/carpentries/trainers/tree/master/minutes
 [etherpad-template]: http://pad.software-carpentry.org/ttt-template
-[training-template]: https://github.com/swcarpentry/training-template
+[training-template]: https://github.com/carpentries/training-template
 [minute-cards-template]: https://docs.google.com/forms/d/1ZvNx2co9BLEBTzDavUE7ZkAhkekBa19_5aIRFAdQIqw/edit
 [checkout-checklist]: http://www.datacarpentry.org/checkout/
 [training-repo]: http://carpentries.github.io/instructor-training/

@@ -60,8 +60,8 @@ templates_path = ['_templates']
 master_doc = 'index'
 
 # General information about the project.
-project = 'Carpentries Handbook'
-copyright = '(C) 2018, The Carpentries. This content is released under the terms of the Creative Commons Attribution License'
+project = 'The Carpentries Handbook'
+copyright = '2018, The Carpentries. This content is released under the terms of the Creative Commons Attribution License'
 author = 'Authors'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -146,8 +146,9 @@ html_sidebars = {
 html_context = {
   'display_github': True,
   'github_user': 'carpentries',
-  'github_repo': 'usersguides',
-  'github_version': 'master/'
+  'github_repo': 'handbook',
+  'github_version': 'master/',
+  'theme_vcs_pageview_mode': 'blob'
 }
 
 
